@@ -15,6 +15,7 @@
 		C518F779279EBE6F00CF77EC /* AbsenceRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C518F778279EBE6F00CF77EC /* AbsenceRecorderUITests.swift */; };
 		C528081F279F5B0E0015A9E6 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528081E279F5B0E0015A9E6 /* Student.swift */; };
 		C5280821279F5B770015A9E6 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5280820279F5B770015A9E6 /* Division.swift */; };
+		C5C6C0FB27A20565006C20ED /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C6C0FA27A20565006C20ED /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C518F77A279EBE6F00CF77EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C528081E279F5B0E0015A9E6 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		C5280820279F5B770015A9E6 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
+		C5C6C0FA27A20565006C20ED /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		C518F75A279EBE6700CF77EC /* AbsenceRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				C5C6C0F927A20553006C20ED /* Extensions */,
 				C528081D279F5AD60015A9E6 /* View */,
 				C528081C279F5ACB0015A9E6 /* Model */,
 				C518F75B279EBE6700CF77EC /* AbsenceRecorderApp.swift */,
@@ -150,6 +153,14 @@
 				C518F75D279EBE6700CF77EC /* ContentView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C5C6C0F927A20553006C20ED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C5C6C0FA27A20565006C20ED /* Date.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C518F75E279EBE6700CF77EC /* ContentView.swift in Sources */,
+				C5C6C0FB27A20565006C20ED /* Date.swift in Sources */,
 				C528081F279F5B0E0015A9E6 /* Student.swift in Sources */,
 				C5280821279F5B770015A9E6 /* Division.swift in Sources */,
 				C518F75C279EBE6700CF77EC /* AbsenceRecorderApp.swift in Sources */,

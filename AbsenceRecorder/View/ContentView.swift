@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    let examples: [Division]
+    var currentDate: Date = Date()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(examples, id: \.self.code) { division in
+                Text(division.code)
+                    .padding()
+            }
+            .navigationTitle(currentDate.getShortDate())
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(examples: Division.examples)
     }
 }
