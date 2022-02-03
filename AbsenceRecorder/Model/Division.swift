@@ -33,7 +33,7 @@ class Division {
         }
     }
     
-    //#if DEBUG
+    #if DEBUG
     static func createDivision(code: String, of size: Int) -> Division {
         let division = Division(code: code)
         
@@ -48,6 +48,6 @@ class Division {
                            Division.createDivision(code: "vCX-1", of: 11),
                            Division.createDivision(code: "vE5-2", of: 18),
                            Division.createDivision(code: "vD2-1", of: 16),]
-    //#endif
+    #endif
     
 }
